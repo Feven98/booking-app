@@ -20,15 +20,15 @@ It allows users to choose their place of destination when they want to rest and 
 
 ## Homepage
 
-<img width="557" alt="Screenshot 2023-06-06 at 11 25 44 PM" src="https://github.com/Feven98/booking-app/assets/117063196/11c8ad30-588f-42a4-8d0d-e4f86ca4eb2a">
+<img width="557" alt="Screenshot 2023-06-06 at 11 25 44 PM" src="https://github.com/Feven98/capstone_blog/assets/117063196/aa001826-0ccc-4165-9a3b-9cbe647eab84">
 
 ## Detai Page
 
-<img width="546" alt="Screenshot 2023-06-06 at 11 30 54 PM" src="https://github.com/Feven98/booking-app/assets/117063196/ba92645b-9319-49e8-8190-8cd83adddee2">
+<img width="546" alt="Screenshot 2023-06-06 at 11 30 54 PM" src="https://github.com/Feven98/capstone_blog/assets/117063196/f5b45143-550b-4460-9c2f-059186d1f8b9">
 
 ## Account page
 
-<img width="540" alt="Screenshot 2023-06-06 at 11 32 56 PM" src="https://github.com/Feven98/booking-app/assets/117063196/a167b72f-2ef7-471f-93db-f6238da44421">
+<img width="540" alt="Screenshot 2023-06-06 at 11 32 56 PM" src="https://github.com/Feven98/capstone_blog/assets/117063196/4580b153-2732-497a-8789-1720ba39d257">
 
 # ERDs
 
@@ -38,7 +38,7 @@ It allows users to choose their place of destination when they want to rest and 
 
 ## Screenshot
 
-<img width="1166" alt="Screenshot 2023-06-07 at 12 13 18 AM" src="https://github.com/Feven98/booking-app/assets/117063196/e271982d-10cb-4539-8169-d32bf9e305be">
+<img width="1166" alt="Screenshot 2023-06-07 at 12 13 18 AM" src="https://github.com/Feven98/capstone_blog/assets/117063196/6abdd2ef-97c1-4d45-9e4b-72e82b8e37d7">
 
 # User Stories
 
@@ -52,7 +52,7 @@ It allows users to choose their place of destination when they want to rest and 
 
 # User Flow
 
-<img width="551" alt="Screenshot 2023-06-07 at 12 20 36 AM" src="https://github.com/Feven98/Project-2/assets/117063196/efe3444f-44fe-4535-a3a8-b7f5c0d1ca15">
+<img width="551" alt="Screenshot 2023-06-07 at 12 20 36 AM" src="https://github.com/Feven98/capstone_blog/assets/117063196/24150ff9-addd-412f-92ac-341734d9caa3">
 
 # Feature List
 
