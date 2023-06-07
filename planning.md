@@ -16,7 +16,7 @@ It allows users to choose their place of destination when they want to rest and 
 
 ## Register/Login Page
 
-<img width="770" alt="Screenshot 2023-06-06 at 11 14 37 PM" src="https://github.com/Feven98/booking-app/assets/117063196/b5b3c613-86ec-45d6-ba3b-88c33e378a23">
+<img width="770" alt="Screenshot 2023-06-06 at 11 14 37 PM" src="https://github.com/Feven98/capstone_blog/assets/117063196/d69a2180-8e9c-4ad5-b640-ea70b157ba4c">
 
 ## Homepage
 
