@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 function Header() {
     return (
-        <header className='p-3 flex justify-between'>
+        <header className='flex justify-between'>
             <a href='' className='logo'>
                 {/* the person do =  */}
                 {/* <a href='' className='flex items-center gap-1'> */}

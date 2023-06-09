@@ -1,6 +1,10 @@
+import Header from "../Header"
+
 function LoginPage(){
     return(
-<div>login</div>
+<div>
+   login page
+</div>
     )
 }
 export default LoginPage

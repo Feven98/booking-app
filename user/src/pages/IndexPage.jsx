@@ -4,7 +4,7 @@ import Header from "../Header"
 function IndexPage(){
     return(
     <div>
-    <Header />
+    index page here
    </div>
     )
 }
