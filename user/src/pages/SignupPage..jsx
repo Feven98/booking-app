@@ -10,7 +10,12 @@ function SignupPage() {
     
     function register(ev) {
         ev.preventDefault();
-        axios.get('http://localhost:4000/test');
+        axios.post('/signup', {
+            username,
+            email,
+            newpassword,
+            password
+        });
     }
     return (
         <div className="mt-10 grow flex items-center justify-around">
