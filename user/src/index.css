@@ -9,6 +9,6 @@ button{
   @apply bg-purple-400;
 }
 button.primary{
-  background-color:rgb(120, 85, 140);
+  background-color:rgb(104, 73, 123);
   @apply bg-primary p-2 w-full text-white rounded-full;
 }
