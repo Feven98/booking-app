@@ -10,7 +10,12 @@ const { PORT, MONGODB_URI } = process.env;
 const express = require('express');
 const cors = require('cors');
 const { default: mongoose } = require('mongoose');
+const User = require('./models/user.js')
+const bcrypt = require('bcryptjs');
+const bcryptjs = require("bcryptjs");
 const app = express();
+
+const bcryptSalt = bcrypt.genSaltSync(10);
 
 app.use(express.json());
 app.use(cors({
@@ -23,11 +28,15 @@ app.get('/test', (req,res) => {
     res.json('test ok');
 });
 
-// XZgDPptjfX7eh9Fl
-
-app.post('/signup', (req,res) => {
+app.post('/signup', async (req,res) => {
     const {username,email,password} = req.body;
-    res.json(username,email,password);
+    const userInfo = await User.create({
+        username,
+        email,
+        password: bcrypt.hashSync(password, bcryptSalt),
+    });
+
+    res.json(userInfo);
 });
 
 app.listen(4000);
