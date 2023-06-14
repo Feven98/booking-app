@@ -5,7 +5,7 @@ import axios from 'axios'
 function SignupPage() {
     const [username, setUserName] = useState('');
     const [email, setEmail] = useState('');
-    const [newpassword, setNewPassword] = useState('');
+    // const [newpassword, setNewPassword] = useState('');
     const [password, setPassword] = useState('');
     
     function register(ev) {
@@ -13,7 +13,6 @@ function SignupPage() {
         axios.post('/signup', {
             username,
             email,
-            newpassword,
             password
         });
     }
@@ -30,10 +29,10 @@ function SignupPage() {
                         placeholder="email"
                         value={email}
                         onChange={ev => setEmail(ev.target.value)} />
-                    <input type="new password"
+                    {/* <input type="new password"
                         placeholder="new password"
                         value={newpassword}
-                        onChange={ev => setNewPassword(ev.target.value)} />
+                        onChange={ev => setNewPassword(ev.target.value)} /> */}
                     <input type="password"
                         placeholder="password"
                         value={password}

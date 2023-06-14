@@ -26,8 +26,8 @@ app.get('/test', (req,res) => {
 // XZgDPptjfX7eh9Fl
 
 app.post('/signup', (req,res) => {
-    const {username,email,newpassword,password} = req.body;
-    res.json(username,email,newpassword,password);
+    const {username,email,password} = req.body;
+    res.json(username,email,password);
 });
 
 app.listen(4000);
