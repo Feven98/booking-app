@@ -1,6 +1,8 @@
 import { useState } from "react"
 import { Link } from "react-router-dom"
-import axios from 'axios'
+import axios from "axios"
+
+
 
 function SignupPage() {
     const [username, setUserName] = useState('');
@@ -8,7 +10,8 @@ function SignupPage() {
     // const [newpassword, setNewPassword] = useState('');
     const [password, setPassword] = useState('');
     
-    function register(ev) {
+    
+    async function register(ev) {
         ev.preventDefault();
         axios.post('/signup', {
             username,
@@ -26,7 +29,7 @@ function SignupPage() {
                         value={username}
                         onChange={ev => setUserName(ev.target.value)} />
                     <input type="email"
-                        placeholder="email"
+                        placeholder="your@email.com"
                         value={email}
                         onChange={ev => setEmail(ev.target.value)} />
                     {/* <input type="new password"
