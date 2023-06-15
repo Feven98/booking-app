@@ -72,28 +72,6 @@ It allows users to choose their place of destination when they want to rest and 
 
 - Add authinication
 
-# Milestones
-
-- Day 1 
-
-    - Create Planning
-
-- Day 2
-
-    - Set up enviroment
-
-    - Add api
-
-- Day 3-6
-
-    - Working on MVP and stretch goal
-
-- Day 7
-
-    - Add style
-
-    - Docmentation
-
 # Technology Used
 
 - MERN (mongo, express, react and node)
