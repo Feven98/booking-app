@@ -12,8 +12,8 @@ const cors = require('cors');
 
 const { default: mongoose } = require('mongoose');
 const User = require('./models/user.js')
-const bcrypt = require('bcrypt');
-const bcryptjs = require("bcryptjs");
+const bcrypt = require('bcryptjs');
+// const bcryptjs = require("bcryptjs");
 const app = express();
 
 const bcryptSalt = bcrypt.genSaltSync(10);

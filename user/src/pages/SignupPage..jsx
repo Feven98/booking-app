@@ -2,23 +2,22 @@ import { useState } from "react"
 import { Link } from "react-router-dom"
 import axios from "axios"
 
-
-
 function SignupPage() {
     const [username, setUserName] = useState('');
     const [email, setEmail] = useState('');
     // const [newpassword, setNewPassword] = useState('');
     const [password, setPassword] = useState('');
-    
-    
-    async function register(ev) {
+
+    function register(ev) {
         ev.preventDefault();
         axios.post('/signup', {
             username,
             email,
             password
+            
         });
     }
+
     return (
         <div className="mt-10 grow flex items-center justify-around">
             <div className="mb-12">
