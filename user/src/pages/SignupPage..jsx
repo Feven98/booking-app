@@ -14,7 +14,7 @@ function SignupPage() {
             username,
             email,
             password
-            
+
         });
     }
 
