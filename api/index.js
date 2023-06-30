@@ -26,16 +26,16 @@ const bcryptSalt = bcrypt.genSaltSync(10);
 const corsOptions = {
     origin: 'http://localhost:5173',
     credentials: true,
-    optionSuccessStatus:200
+    optionSuccessStatus: 200
 }
 app.use(cors(corsOptions))
 
-app.get('/test', (req,res) => {
+app.get('/test', (req, res) => {
     res.json('test ok');
 });
 
-app.post('/signup', async (req,res) => {
-    const {username,email,password} = req.body;
+app.post('/signup', async (req, res) => {
+    const { username, email, password } = req.body;
     const userInfo = await User.create({
         username,
         email,
