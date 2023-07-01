@@ -8,7 +8,7 @@ function SignupPage() {
     // const [newpassword, setNewPassword] = useState('');
     const [password, setPassword] = useState('');
 
-    function register(ev) {
+ function register(ev) {
         ev.preventDefault();
         axios.post('/signup', {
             username,
