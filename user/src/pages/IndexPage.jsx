@@ -2,7 +2,7 @@
 function IndexPage() {
     return (
         <div>
-            index page here
+            index page included here
         </div>
     )
 }
