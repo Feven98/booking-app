@@ -5,9 +5,8 @@ import axios from "axios"
 function SignupPage() {
     const [username, setUserName] = useState('');
     const [email, setEmail] = useState('');
-    // const [newpassword, setNewPassword] = useState('');
     const [password, setPassword] = useState('');
-
+// const [newpassword, setNewPassword] = useState('');
  function register(ev) {
         ev.preventDefault();
         axios.post('/signup', {
