@@ -14,8 +14,7 @@ function App() {
     <Routes>
       <Route path='/' element={<Format />}>
         <Route index element={<IndexPage />} />
-        <Route path='/login' element={<LoginPage />} />
-        <Route path='/signup' element={<SignupPage />} />
+       
       </Route>
     </Routes>
 
