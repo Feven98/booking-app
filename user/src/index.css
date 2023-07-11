@@ -4,7 +4,7 @@
 
 input [type="text"],
 input[type="password"],
-input[type="username/email"],
+/* input[type="username/email"], */
 input[type="username"],
 /* input[type="new password"], */
 input[type="email"] {
