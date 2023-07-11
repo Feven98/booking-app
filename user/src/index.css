@@ -6,7 +6,7 @@ input [type="text"],
 input[type="password"],
 input[type="username/email"],
 input[type="username"],
-input[type="new password"],
+/* input[type="new password"], */
 input[type="email"] {
   @apply w-full border my-4 py-3 px-6 rounded-full;
 }
