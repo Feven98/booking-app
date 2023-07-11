@@ -8,6 +8,7 @@ function SignupPage() {
     const [password, setPassword] = useState('');
     // const [newpassword, setNewPassword] = useState('');
 
+    // still not working
     function register(ev) {
         ev.preventDefault();
         axios.post('/signup', {
