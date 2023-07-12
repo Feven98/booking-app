@@ -34,7 +34,7 @@ function SignupPage() {
                         onChange={ev => setEmail(ev.target.value)} />
                     <input type="password"
                         placeholder="password"
-                        // value={password}
+                        value={password}
                         onChange={ev => setPassword(ev.target.value)} />
                     <button className="primary">Sign Up</button>
                     <div className="text-center py-4">
