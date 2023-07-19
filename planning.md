@@ -63,7 +63,7 @@ Booking App is an app that will allow users to book any place from their prescep
 
 - Book their destination
 
-- Access to choose date and time
+<!-- - Access to choose date and time -->
 
 <!-- - Cancel their booking -->
 
