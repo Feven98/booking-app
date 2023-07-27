@@ -4,7 +4,7 @@ function IndexPage() {
     return (
 
         <div>
-            index page included here
+            {/* index page included here */}
         </div>
         
     )
