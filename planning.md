@@ -71,7 +71,7 @@ Booking App is an app that will allow users to book any place from their prescep
 
 - Add mobile comtablity
 
-<!-- - Add authinication -->
+- Add authinication
 
 # Technology Used
 
