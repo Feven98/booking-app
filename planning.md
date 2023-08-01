@@ -49,7 +49,7 @@ Booking App is an app that will allow users to book any place from their prescep
 
 - As a user I want to know about the place in detail and see the pictures.
 
-<!-- - As a user I want to have my own account and can book anytime. -->
+- As a user I want to have my own account and can book anytime.
 
 # User Flow
 
