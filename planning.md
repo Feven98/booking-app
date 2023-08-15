@@ -7,7 +7,7 @@ Booking App is an app that will allow users to book any place from their prescep
 # Problem the app addresses 
 
 - It allows users to choose their place of destination when they want to rest and have vacation time. 
-- It allows people to check the price and other accomdations without searching on other website.
+<!-- - It allows people to check the price and other accomdations without searching on other website. -->
 
 # Wireframes
 
